@@ -1,0 +1,11 @@
+.idea/
+.DS_STORE
+
+# git
+.git/
+**/.gitattributes
+**/.gitignore
+
+# build tools
+build/
+tmp/
