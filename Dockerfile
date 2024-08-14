@@ -1,4 +1,4 @@
-FROM golang:1.22-bullseye as gobuild
+FROM golang:1.23-bullseye as gobuild
 WORKDIR /go/src/go.datalift.io/demo-simple-app
 COPY . .
 RUN go build -ldflags="-s -w" -o ./build/server .
